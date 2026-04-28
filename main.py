@@ -1,18 +1,27 @@
-
 while True:
- a = int(input("Enter first number: "))
- op = input("Enter operator (+, -, *, /): ")
- b = int(input("Enter second number: "))
+    a = int(input(": "))
+    op = input("choose an operator (-,+,/,x): ").lower()
+    b = int(input(": "))
 
- if op == "+":
-     print(a + b)
- elif op == "-":
-     print(a - b)
- elif op == "*":
-     print(a * b)
- elif op == "/":
-     print(a / b) 
- else:
-     print("Invalid operator") 
+    if op == "/":
+        if b == 0:
+            print("Cannot divide by zero")
+        else:
+            print(a / b)
 
-# this is my first project 
+    elif op == "-":
+        print(a - b)
+
+    elif op == "+":
+        print(a + b)
+
+    elif op == "x":
+        print(a * b)
+
+    else:
+        print("Invalid operator")
+
+    print("_________________________________")
+
+
+#imp. (x = *) , .lower() is used for do X = x 
