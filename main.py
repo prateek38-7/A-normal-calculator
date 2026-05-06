@@ -21,7 +21,8 @@ while True:
     else:
         print("Invalid operator")
 
-    print("_________________________________")
+   #imp. (x = *) , .lower() is used for do X = x  
+
+print("_________________________________")
 
 
-#imp. (x = *) , .lower() is used for do X = x 
